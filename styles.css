@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+
+}
+
+.navbar{
+    background-color: rgba(111, 106, 247, 1);
+    color: whitesmoke;
+    height:7vh;
+    font-family: "Lucida Console", "Courier New", monospace;   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbar ul h1{
+    margin-left:20px;
+    padding-top:10px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navbar ul li {
+    font-size: 20px;
+    margin-right: 100px;
+    list-style-type: none;
+    padding:10px;
+    padding-left: 80px;
+}
+
+.menuImg{
+    margin-right:0px;
+}
+
+.menuImg img{
+    height:30px;
+    width: 30px;
+}
+.searchBox{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+
+.cardName img{
+    width: 300px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.styled-textarea {
+    background-color: 
+    rgba(229, 216, 255, 1);
+    width: 850px;
+    height: 333px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+    padding-left:60px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 80%; 
+    margin-left: 150px;
+    
+}
+
+.card {
+    flex: 1;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+
+.card h2{
+    color: white;
+}
+.card p{
+    color: white;
+}
+
+
+.newsletter {
+   
+    border: 2px solid blue ;
+    background-color: blue;
+    height: 520px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin:140px;
+}
+
+/* Left side (options) */
+
+
+.form {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+/* Row styling */
+.form-row {
+    margin-bottom: 10px;
+}
+
+/* Optional styling for better appearance */
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form h2{
+    margin-left: 15px;
+}
+.form p {
+    padding:10px;
+    margin-left: 30px;
+    
+}
+
+.options{
+    width: 25%;
+    background-color: blue;
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+.options-card{
+    padding:5px;
+}
+
+.optCard{
+    flex: 1;
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    border: 2px solid white;
+}
+
+.optCard h2{
+    color: #f2f2f2;
+    padding: 8px;
+    margin-left: 50px;
+   
+}
+
+
+
+/* Chat Icon */
+.social-icon {
+    position: fixed;
+    top: 10px; /* Adjust this value to change the vertical position */
+    right: 10px; /* Adjust this value to change the horizontal position */
+    z-index: 1000; /* Ensure it's above other elements */
+    cursor: pointer; /* Make it look clickable */
+    transform: rotate(90deg);
+    margin-right: -150px;
+}
+
+/* Additional styling for your chatbot icon/image */
+.social-icon img {
+    margin-top: 200px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007BFF;
+    padding: 5px;
+    transform: rotate(-90deg);
+    
+}
+
+.chat-icon {
+    position: fixed;
+    top: 10px; /* Adjust this value to change the vertical position */
+    right: 10px; /* Adjust this value to change the horizontal position */
+    z-index: 1000; /* Ensure it's above other elements */
+    cursor: pointer; /* Make it look clickable */
+    transform: rotate(90deg);
+    margin-right: -470px;
+}
+
+/* Additional styling for your chatbot icon/image */
+.chat-icon img {
+    margin-top: 950px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+   
+    padding: 0px;
+    transform: rotate(-90deg);
+    
+}
